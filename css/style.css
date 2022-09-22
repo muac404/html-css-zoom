@@ -109,6 +109,7 @@ li{
 
 ul{
     list-style-type: none;
+    padding: 5px;
 }
 
 .left-dashboard{
@@ -125,4 +126,18 @@ ul{
 
 .share-screen i{
     color: #4bc800;
+}
+
+.dashboard-text{
+    padding-top: 5px;
+}
+
+.box-right-dashboard{
+    width: 100px;
+    background-color: #4a4a4a;
+    
+}
+
+.box-right-dashboard li{
+    color: red;
 }
