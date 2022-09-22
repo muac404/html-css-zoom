@@ -40,7 +40,7 @@ main{
 
 footer{
     height: 90px;
-    background-color: bisque;
+    background-color: #222222;
     
 }
 
@@ -88,4 +88,41 @@ span i{
     background-color: rgba(0,0,0,0.4);
     padding: 5px;
     font-size: 14px;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+li{
+    padding: 5px;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.left-dashboard{
+    display: flex;
+}
+
+.central-dashboard{
+    display: flex;
+}
+
+.right-dashboard{
+    display: flex;
+}
+
+.share-screen i{
+    color: #4bc800;
 }
