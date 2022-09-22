@@ -110,6 +110,7 @@ li{
 ul{
     list-style-type: none;
     padding: 5px;
+    vertical-align: middle;
 }
 
 .left-dashboard{
@@ -139,5 +140,13 @@ ul{
 }
 
 .box-right-dashboard li{
-    color: red;
+    color: azure;
+}
+
+li i{
+    vertical-align: middle;
+}
+
+.chevron i{
+    margin-top: 15px;
 }
