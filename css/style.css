@@ -11,3 +11,24 @@
 /* TYPO */
 
 /* MAIN */
+header{
+    height: 30px;
+    background-color: blueviolet;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+main{
+    height: calc(100% - 120px);
+    background-color: darkgrey;
+    max-width: 90%;
+    margin: auto;
+
+}
+footer{
+    height: 90px;
+    background-color: bisque;
+}
