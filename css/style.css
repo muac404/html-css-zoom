@@ -9,11 +9,17 @@
 /* COMMONS */
 
 /* TYPO */
+body{
+    font-family: 'Lato', sans-serif;
+}
 
 /* MAIN */
 header{
     height: 30px;
-    background-color: blueviolet;
+    background-color: black;
+    text-align: right;
+    padding: 5px;
+    vertical-align: middle;
 }
 
 body {
@@ -28,7 +34,29 @@ main{
     margin: auto;
 
 }
+
 footer{
     height: 90px;
     background-color: bisque;
+    
+}
+
+.speaker-view{
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+
+span i{
+    color: white;
+    background-color: #4a4a4a;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 12px;
+    
 }
