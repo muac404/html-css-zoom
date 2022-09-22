@@ -28,7 +28,7 @@ body {
 }
 
 main{
-    height: calc(100% - 120px);
+    height: calc(100vh - 120px);
     background-color: BLACK;
     max-width: 90%;
     margin: auto;
